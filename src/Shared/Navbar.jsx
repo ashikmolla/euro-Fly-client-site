@@ -6,7 +6,7 @@ import { UserIcon } from '@heroicons/react/24/solid'
 const Navbar = () => {
     const naveItems = <>
         <li className='text-xl font-bold hover:text-sky-600'><Link to='/'>Home </Link></li>
-        <li className='text-xl font-bold hover:text-sky-600'><Link to='/'>For Job Seekers</Link></li>
+        <li className='text-xl font-bold hover:text-sky-600'><Link to='forJobSeekers'>For Job Seekers</Link></li>
         <li className='text-xl font-bold hover:text-sky-600'><Link to='/'>For Employer </Link></li>
         <li className='text-xl font-bold hover:text-sky-600'><Link to='/'>Advantages</Link></li>
         <li className='text-xl font-bold hover:text-sky-600'><Link to='/'>Contact Us</Link></li>

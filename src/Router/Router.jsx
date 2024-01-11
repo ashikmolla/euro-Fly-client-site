@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Main/Main";
 import Home from "../Home/Home/Home";
+import ForJobSeekers from "../Shared/ForJobSeekers/ForJobSeekers";
 const router = createBrowserRouter([
     {
         path: '/',
@@ -9,6 +10,10 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home />
+            },
+            {
+                path:'forJobSeekers',
+                element:<ForJobSeekers/>
             }
         ]
     }
