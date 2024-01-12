@@ -7,13 +7,13 @@ const Navbar = () => {
     const naveItems = <>
         <li className='text-xl font-bold hover:text-sky-600'><Link to='/'>Home </Link></li>
         <li className='text-xl font-bold hover:text-sky-600'><Link to='forJobSeekers'>For Job Seekers</Link></li>
-        <li className='text-xl font-bold hover:text-sky-600'><Link to='/'>For Employer </Link></li>
-        <li className='text-xl font-bold hover:text-sky-600'><Link to='/'>Advantages</Link></li>
-        <li className='text-xl font-bold hover:text-sky-600'><Link to='/'>Contact Us</Link></li>
+        <li className='text-xl font-bold hover:text-sky-600'><Link to='forEmployers'>For Employer </Link></li>
+        <li className='text-xl font-bold hover:text-sky-600'><Link to='Advantages'>Advantages</Link></li>
+        <li className='text-xl font-bold hover:text-sky-600'><Link to='contactUs'>Contact Us</Link></li>
     </>
     return (
 
-        <div className='px-10'>
+        <div className='px-10 shadow-xl  top-0'>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">

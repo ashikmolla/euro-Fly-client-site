@@ -2,7 +2,7 @@ import React from 'react';
 
 const International = () => {
     return (
-        <div className='bg-base-200 px-10 -mt-4 '>
+        <div className='px-10 -mt-4 '>
             <div className='container text-center py-16'>
                 <h3 className='text-4xl text-black font-medium my-4'> Whoy EURO FLY International?</h3>
                 <hr className='my-4 w-11/12 mx-auto' />
