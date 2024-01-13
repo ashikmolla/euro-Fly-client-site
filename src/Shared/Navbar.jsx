@@ -39,11 +39,11 @@ const Navbar = () => {
                         {naveItems}
                     </ul>
                 </div>
-                <div className="navbar-end mr-4">
+                {/* <div className="navbar-end mr-4">
                     <button className='btn  btn-circle' >
                         <UserIcon className="h-8 w-8 text-white" />
                     </button>
-                </div>
+                </div> */}
             </div>
         </div>
 
